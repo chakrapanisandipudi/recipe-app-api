@@ -2,7 +2,9 @@ from django.test import SimpleTestCase
 
 from app import calc
 
+
 class CalcSimpleTests(SimpleTestCase):
+
     """ Test the calc module. """
 
     def test_add_number(self):
